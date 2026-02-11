@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Prank Button 😆</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #prank {
+            display: none;
+            margin-top: 30px;
+        }
+
+        #prank img {
+            width: 300px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Tekan tombol ini ya TANN😇</h2>
+    <button onclick="kenaPrank()">PENCET AKU</button>
+
+    <div id="prank">
+        <h1>😂 SELAMAT, ANDA KENA PRANK 😂</h1>
+        <img src="https://USERNAME.github.io/NAMA-REPO/gambar-prank.jpg" alt="Prank Image">
+    </div>
+
+    <script>
+        function kenaPrank() {
+            document.getElementById("prank").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
